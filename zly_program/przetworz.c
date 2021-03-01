@@ -125,7 +125,9 @@ int IloscWielkichLiter(char *Tekst)
 
 int main()
 {
-  char *Napis = "Jak dobrze jest wstac skoro swit. Jutrzenki blask ...";
+  char Napis[] = "Jak dobrze jest wstac skoro swit. Jutrzenki blask ..."; /* Poprzednio zadeklarowana tablica za pomoca wskaznika *Napis jest zainicjalizowana okreslonymi znakami, 
+                                                                          nie pozwalala na dokonywanie w niej zmian. Potrzeba zadeklarowac tablice, ktora pozwala na zmiane pozycji znakowych.
+                                                                          Test przeprowadzony na diablo */
   int IloscSpacji;
   int DlugoscSlowaXXX;
   int IloscMaLiter = 0;

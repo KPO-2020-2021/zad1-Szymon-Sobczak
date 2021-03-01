@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+/* Program kompiluje sie i dziala poprawnie dla g++,  w przypadku gcc nalezy dodac flage -lm aby dolaczyc biblioteke matematyczna. Test przeprowadzony na diablo */
 
 struct TrojmianKw {
   double  a;
@@ -10,8 +10,6 @@ struct TrojmianKw {
 
 
 typedef struct TrojmianKw  TrojmianKw;
-
-
 
 int main() {
   TrojmianKw   TKw;

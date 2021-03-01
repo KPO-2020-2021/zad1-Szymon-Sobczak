@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-double Dodaj();
+double Dodaj(double, double ); /* W c++ niedopuszczalne jest niezadeklarowanie typow dla argumentow, ktore ma przyjac funckja, test wykonany na Diablo*/
 
 
 int main( )
