@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-extern const double PI; /* Zamiana extern na static spowodowala blad nizainicjalizowanej zmiennej badz blad wielorotnie zainicjownaej zmiennej. Test przeprowadzony na diablo */
-extern const double E;  
+extern const double PI; /* Test przeprowadzony na diablo */
+extern const double E;  /* Powiazanie stalych pomiedzy plikami wymaga slowa extern, aby linker poszukiwal stalych w innych modulach  */
 
 int main()
 {

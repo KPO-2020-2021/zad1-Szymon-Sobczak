@@ -2,6 +2,6 @@
 /*
  *  Zestaw wazniejszych stalych
  */
-double PI = 3.141593;
-double E  = 2.718282;
+extern const double PI = 3.141593; /* Aby program dzialal przy uzyciu g++, nalezy jawnie dowiazac stala */
+extern const double E  = 2.718282;
 
